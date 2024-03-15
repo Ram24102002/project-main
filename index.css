@@ -158,12 +158,17 @@ body
     width: 600px;
 }
 
+.filler-img-shop
+{
+    height: 300px;
+    width: 100%;
+}
 
 @media all and (max-width:650px)
 {
     .main-search
     {
-        width: 350px;
+        width: 270px;
         margin-left: -10px;
     }
     .card-section
@@ -175,4 +180,13 @@ body
         height: 100px;
         width: 200px;
     }
+    .fa-lemon
+    {
+        margin-left: -150px;
+    }
+    .filler-img-shop
+    {
+        height: 220px;
+    }
+
 }
