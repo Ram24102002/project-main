@@ -100,9 +100,16 @@ body
 
 .card-img-top
 {
-    height: 300px;
+    /* height: 300px; */
 }
 
+.row
+{
+    margin-top: -150px;
+}
+
+
+/* ===== sale box ===== */
 
 .sale-sec
 {
@@ -154,6 +161,11 @@ body
 
 @media all and (max-width:650px)
 {
+    .main-search
+    {
+        width: 350px;
+        margin-left: -10px;
+    }
     .card-section
     {
         height: 2500px;
