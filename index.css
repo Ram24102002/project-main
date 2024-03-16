@@ -328,6 +328,17 @@ h5
 
 @media all and (max-width:650px)
 {
+    .nav-cont
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+    .navbar-toggler 
+    /* , .navbar-collapse */
+    {
+        opacity: 0;
+    }
     .fa-lemon
     {
         /* margin-left: -150px; */
