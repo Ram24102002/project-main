@@ -378,12 +378,11 @@ h5
         text-align: center;
         text-justify: auto;
     }
-    .card-title
+    .c-t
     {
         font-size: 15px;
         margin-top: -15px;
-  
-  }
+    }
   
     }
 
