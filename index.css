@@ -72,7 +72,11 @@ body
     position: absolute;
 }
 
-
+.lemon-marquee
+{
+    background-color: rgb(202, 151, 250);
+    padding: 10px;
+}
 
 /* ====== card ====== */
 
@@ -116,19 +120,91 @@ body
 
 /* ===== sale box ===== */
 
+
+    /* === marquee === */
+.sale-marq
+{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    font-family: "Londrina Outline", sans-serif;
+    font-size: 200px;
+    
+}
+
+.sale-m
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.1px;
+    white-space: nowrap;
+    padding: 0 6rem;
+    animation: move-rtl 2000ms linear infinite;
+    font-size: 75px;
+}
+
+
+
+.sale-m1
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.1px;
+    white-space: nowrap;
+    padding: 0 6rem;
+    animation: move-rtl2 2000ms linear infinite;
+    font-size: 75px;
+}
+
+.sale-m2
+{
+    font-size: 50px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.1px;
+    white-space: nowrap;
+    padding: 0 6rem;
+    animation: move-rtl2 2000ms linear reverse infinite;
+    font-size: 75px;
+}
+
+@keyframes move-rtl
+{
+    0%
+    {
+        transform: translate(0);
+    }
+    100%
+    {
+        transform: translate(-100%);
+    }
+}
+
+@keyframes move-rtl2
+{
+    /* 0%
+    {
+        transform: translate(-100%);
+    } */
+    100%
+    {
+        transform: translate(-100%);
+    }
+}
+
+
+
+
+
 .sale-sec
 {
-    height: 1020px;
+    height: 1050px;
     width: 100%;
     background-color: rgb(222, 194, 249);
 }
 
-.marquee1
-{
-    height: 100px;
-    font-size: 75px;
-    font-family: "Londrina Outline", sans-serif;
-}
+
 
 .sale-box
 {
@@ -211,20 +287,33 @@ body
 }
 
 
+footer
+{
+    height: 400px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
 
+.lemon-marquee-footer
+{
+    margin-top: 0;
+}
 
+li ,a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
 
-
-
-
-
-
-
-
-
-
-
+h3
+{
+    font-family: "Angkor", serif;
+}
 
 
 
