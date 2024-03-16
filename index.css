@@ -154,20 +154,11 @@ body
     -webkit-text-stroke-width: 0.1px;
     white-space: nowrap;
     padding: 0 6rem;
-    animation: move-rtl2 2000ms linear infinite;
-    font-size: 75px;
-}
-
-.sale-m2
-{
-    font-size: 50px;
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 0.1px;
-    white-space: nowrap;
-    padding: 0 6rem;
     animation: move-rtl2 2000ms linear reverse infinite;
     font-size: 75px;
 }
+
+
 
 @keyframes move-rtl
 {
