@@ -364,5 +364,20 @@ h3
     {
         height: 220px;
     }
+    .cato-card
+    {
+        width: 9rem;
+        height: 120px;
+        font-size: 10px;
+        text-align: center;
+        text-justify: auto;
+    }
+    .card-title
+    {
+        font-size: 15px;
+        margin-top: -15px;
+  
+  }
+  
+    }
 
-}
