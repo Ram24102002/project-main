@@ -420,6 +420,11 @@ svg
     {
         /* margin-bottom: -500px; */
     }
+
+    .btn-success
+    {
+        margin-top: 40px;
+    }
   
     }
 
