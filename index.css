@@ -6,7 +6,7 @@
 body
 {
     width: 100%;
-    background-color: aliceblue;
+    background-color: #ffff;
     overflow-x: hidden;
 }
 
@@ -192,7 +192,8 @@ body
 {
     height: 1050px;
     width: 100%;
-    background-color: rgb(222, 194, 249);
+    background-color: #dec2f9;
+    margin-top: -20px;
 }
 
 
@@ -250,7 +251,7 @@ body
 {
     height: 900px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #8a2ba2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -278,10 +279,18 @@ body
 }
 
 
+.cart-marq
+{
+    background-color: #ffff;
+    height: 100px; 
+    width: 300px;
+    margin-top: 0;
+}
+
 footer
 {
     height: 400px;
-    background-color: blueviolet;
+    background-color: #8a2be2;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -312,7 +321,10 @@ h5
     font-family: "Angkor", serif;
 }
 
-
+svg
+{
+    background-color: rgb(255, 255, 255);
+}
 
 
 
