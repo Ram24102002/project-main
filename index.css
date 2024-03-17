@@ -405,8 +405,16 @@ svg
     }
     .c-t
     {
-        font-size: 15px;
         margin-top: -15px;
+    }
+    .card-title , .btn
+    {
+        
+        font-size: 15px;
+    }
+    .card-text
+    {
+        font-size: 10px;
     }
     .footer-logo
     {
